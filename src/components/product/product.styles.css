@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Nunito&display=swap');
+
+.product-container {
+  font-family: 'Cabin', sans-serif;
+  color: #636365;
+  background-color: #fff;
+  border: 1px solid #636365;
+  border-radius: 5px;
+  padding: 15px;
+  width: 400px;
+  margin: 10px;
+}
+
+.product-container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.description {
+  padding-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.learn-more {
+  text-align: right;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-tag-container {
+  margin: 40px 5px 0 0;
+}
+
+.tag {
+  padding: 0 3px;
+  color: #A48F74;
+  font-weight: 700;
+}
+
+.modal {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  color: #636365;
+}
+
+.modal img {
+  border-radius: 5px;
+}
+
+.modal-header {
+  padding: 5px;
+  justify-content: center;
+}
+
+.modal-description {
+  padding-top: 10px;
+}

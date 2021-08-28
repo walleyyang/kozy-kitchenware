@@ -1,0 +1,25 @@
+.tag-list {
+  display: flex;
+  justify-content: center;
+}
+
+.tag-list-tag {
+  color: #A48F74;
+  font-weight: 700;
+  padding: 2px 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.tag-list-tag-clicked {
+  color: #636365;
+  font-weight: 700;
+  padding: 2px 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.tag-list-tag:hover,
+.tag-list-tag-clicked:hover  {
+  color: #636365;
+}
